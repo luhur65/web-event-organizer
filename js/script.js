@@ -33,7 +33,7 @@ const Events = [
 const eventsContainer = document.querySelector('.events');
 let number = 2;
 Events.forEach(event => {
-  const eventCard = document.createElement('div');
+  const eventCard = document.createElement('article');
   eventCard.classList.add('card');
   eventCard.innerHTML = `
     <img src="https://picsum.photos/id/${number}/600/200" alt="${event.title}">
