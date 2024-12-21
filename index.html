@@ -1,78 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Event Organizer - By Dharma Situmorang</title>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body id="home">
 
-  <!-- semantic element -->
-  <header> 
-    
-    <div class="jumbotron">
-      <h1>Welcome to Event Organizer</h1>
-      <p class="tagline">Creating Unforgettable Experiences, One Event at a Time</p>
-    </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Organizer - By Dharma Situmorang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-    <nav>
-      <a class="nav-link" href="#home">Home</a>
-      <a class="nav-link" href="#about">About</a>
-      <a class="nav-link" href="#events">Events</a>
-      <a class="nav-link" href="#contact">Contact</a>
-    </nav>
-    
-  </header>
+  <body id="home">
 
-  <main>
+    <!-- semantic element -->
+    <header>
 
-    <section class="hero">
-      <h2>Your Event, Our Passion</h2>
-      <p>Organize, Manage, and Enjoy every moment</p>
-    </section>
+      <div class="jumbotron">
+        <h1>Welcome to Event Organizer</h1>
+        <p class="tagline">Creating Unforgettable Experiences, One Event at a Time</p>
+      </div>
 
-    <div class="content">
-    
-      <section class="events" id="events">
-        <!-- isi nya pake javascript yaa kk/bg -->
-      </section>
+      <nav>
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#events">Events</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
 
-      <aside class="content-aside">
-        <div class="about card" id="about">
-          <h3>About Us</h3>
-          <img src="img/profile.jpg" alt="Profle Picture">
-          <p>Event Organizer is a company that specializes in organizing events. We have been in business for over 10 years and
-            have organized hundreds of successful events.</p>
-          <strong>"We are dedicated to organizing events that create lasting memories. Let us help you make your next event a
-            success!" ~ dharma situmorang</str>
-        </div>
-        <div class="contact card" id="contact">
-          <h3>Contact Us</h3>
-          <p>Have a question or need help planning an event? Contact us and we'll be happy to help!</p>
-          <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-          </form>
-        </div>
-      </aside>
+    </header>
 
-    </div>
+    <main>
 
-  </main>
-  <!-- akhir main -->
+      <article>
+        <section class="hero">
+          <h2>Your Event, Our Passion</h2>
+          <p>Organize, Manage, and Enjoy every moment</p>
+        </section>
+      </article>
 
-  <footer>
-    <p>&copy; <span class="year"></span> Event Organizer. All rights reserved.</p>
-  </footer>
-  
-  <script src="js/script.js"></script>
-</body>
+      <div class="content">
+
+        <article class="events" id="events">
+          <!-- isi nya pake javascript yaa kk/bg -->
+        </article>
+
+        <aside class="content-aside">
+          <article>
+            <section class="about card" id="about">
+              <header>
+                <h3>About Us</h3>
+              </header>
+              <figure>
+                <img src="img/profile.jpg" alt="Profle Picture">
+              </figure>
+              <p>Event Organizer is a company that specializes in organizing events. We have been in business for over
+                10 years and
+                have organized hundreds of successful events.</p>
+              <strong>"We are dedicated to organizing events that create lasting memories. Let us help you make your
+                next event a
+                success!" ~ dharma situmorang</strong>
+            </section>
+            <section class="contact card" id="contact">
+              <h3>Contact Us</h3>
+              <p>Have a question or need help planning an event? Contact us and we'll be happy to help!</p>
+              <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+              </form>
+            </section>
+          </article>
+        </aside>
+
+      </div>
+
+    </main>
+    <!-- akhir main -->
+
+    <footer>
+      <p>&copy; <span class="year"></span> Event Organizer. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+
 </html>
